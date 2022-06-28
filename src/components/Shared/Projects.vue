@@ -16,7 +16,7 @@ export default {
     <section className = "container mx-auto text-center flex flex-col items-center space-y-4 md:space-y-8 py-20" >
         <h1 className="text-2xl md:text-6xl tracking-tighter font-bold text-gray-800" >Projects Portfolio</h1>
         <p className = "text-lg md:text-xl text-gray-700" >Search projects by title or filter by category</p>
-        <section className = " space-x-3 md:w-3/4 flex items-center justify-between" >
+        <section className = "  md:space-x-3 md:w-3/4 flex flex-col md:flex-row space-y-3 md:space-y-0 items-center justify-between" >
             <section className = "flex items-center space-x-2" >
                 <i className ='bx bx-search-alt-2 hidden md:flex text-3xl py-2 px-3 rounded-full bg-gray-100 ' />
                 <input type="text" className = " py-2 md:py-3 px-3 md:px-4 border rounded-lg border-gray-200 shadow outline-none " placeholder="Search Projects" >
